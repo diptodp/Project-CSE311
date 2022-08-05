@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Signup Form</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/all.min.css" <script src="https://kit.fontawesome.com/a81368914c.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!--<img class="wave" src="img/wave.png">-->
+    <div class="container">
+        <div class="img">
+            <img src="img/internet.png">
+        </div>
+        <div class="login-content">
+            <form action="index.html">
+                <img src="img/avatar2.svg">
+                <h2 class="title"><u>Welcome TO DATANET</u></h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>First Name</h5>
+                        <input type="text" class="input" required>
+                    </div>
+                </div>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Last Name</h5>
+                        <input type="text" class="input" required>
+                    </div>
+                </div>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <div class="div">
+
+                        <input type="date" class="input" required>
+                    </div>
+                </div>
+
+
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-mobile"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Phone No</h5>
+                        <input type="tel" class="input" required>
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
+                    <div class="div">
+                        <h5>NID No</h5>
+                        <input type="number" pattern="[0-9]{11}" class="input" required>
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fa-solid fa-map-location"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Address</h5>
+                        <input type="text" class="input" required>
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" class="input" required>
+                    </div>
+                </div>
+                <!--<div class="input-div pass">
+                    <div class="i">
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
+                    <div class="div">
+                        <h5>NID Pic</h5>
+                        <!-- <input type="file"class="input" required >--
+                        <input type="file" name="uploadfile" class="input" >
+                    </div>
+                </div>-->
+                <div class="term">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"required>
+                    <label for="vehicle1">I Accept all terms and conditions. </label>
+
+                </div>
+                <input type="submit" class="btn" value="Create Account">
+                <a class="btn3" href="/CSE311-project/Login/login.html">Login here</a>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
