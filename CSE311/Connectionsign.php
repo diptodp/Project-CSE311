@@ -36,7 +36,6 @@ NID ,
  `Address`,
  `Password`) VALUES('$First_Name','$Last_Name','$Birth_Date',$Phone_no,$NID,'$Address','$Password')";
 //$sql = "INSERT INTO student_info(id,student_name) VALUES($Student_id  ,'$Student_name')";
-
 if(mysqli_query($db,$sql)){
 
 	echo "Info Added";
