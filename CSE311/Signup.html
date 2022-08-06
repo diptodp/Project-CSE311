@@ -40,6 +40,17 @@
             <form action="Connectionsign.php" method="post">
                 <img src="img/avatar2.svg">
                 <h2 class="title"><u>Welcome TO DATANET</u></h2>
+
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>User ID</h5>
+                        <input type="text" class="input"name="uid" required>
+                    </div>
+                </div>
+
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
@@ -60,7 +71,8 @@
                 </div>
                 <div class="input-div one">
                     <div class="i">
-                        <i class="fa-solid fa-calendar-days"></i>
+                        
+                        <i class='fa-solid fa-calendar-days'></i>
                     </div>
                     <div class="div">
 
@@ -84,7 +96,7 @@
                     </div>
                     <div class="div">
                         <h5>NID No</h5>
-                        <input type="number" pattern="[0-9]{11}" class="input"name="nid" required>
+                        <input type="number"maxlength="18" class="input"name="nid" required>
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -120,3 +132,4 @@
 </body>
 
 </html>
+
