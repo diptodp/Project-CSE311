@@ -266,7 +266,7 @@ a:hover{
 }
 .navbar .menu li a{
    display: block;
-   color: rgb(20 106 94);
+   color: rgb(5, 5, 5);
    font-size: 18px;
    font-weight: 500;
    margin-left: 25px;
