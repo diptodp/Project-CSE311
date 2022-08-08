@@ -18,6 +18,7 @@ $First_Name=$_POST["fname"];
 $Last_Name=$_POST["lname"];
 $Birth_Date=$_POST["bdate"];
 $Phone_no=$_POST["phn"];
+$Email=$_POST["mail"]
 $NID=$_POST["nid"];
 $Address=$_POST["add"];
 $Password=$_POST["pass"];
@@ -32,10 +33,11 @@ Customer_info(
 First_Name,
  Last_Name, 
 Birth_Date, 
-Phone_no, 
+Phone_no,
+Email,
 NID , 
  `Address`,
- `Password`) VALUES('$User_id','$First_Name','$Last_Name','$Birth_Date',$Phone_no,$NID,'$Address','$Password')";
+ `Password`) VALUES('$User_id','$First_Name','$Last_Name','$Birth_Date',$Phone_no,'$Email',$NID,'$Address','$Password')";
 //$sql = "INSERT INTO student_info(id,student_name) VALUES($Student_id  ,'$Student_name')";
 if(mysqli_query($db,$sql)){
 
