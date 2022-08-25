@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="pack.css" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <title>DATANET INTERNET</title>
+
+</head>
+
+<body>
+
+
+
+
+    <header class="shadow">
+        <div class="logo">
+            <a href="home.html">
+                <img src="image/logo4.png" width="70px" alt="logo" />
+            </a>
+        </div>
+        <nav class="nav" id="nav-menu">
+            <ion-icon name="close-outline" class="header_close" id="close-menu"></ion-icon>
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="home.html" class="link link-theme link-arrow">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="pack.html" class="link link-theme link-arrow">Packages</a>
+                </li>
+
+
+
+                <li class="nav_item">
+                    <a href="#contact" class="link link-theme link-arrow">Contact</a>
+                </li>
+                <li class="nav_item">
+                    <a href="about.html" class="link link-theme link-arrow">About Us</a>
+                </li>
+                <li class="nav_item olduser">
+                    <div class="dropdown">
+                        <button class="dropbtn">Self-Care</button>
+                        <div class="dropdown-content">
+                            <a href="login.php"><strong>Admin </strong></a>
+                            <a href="Employee.php"><strong>Employee</strong></a>
+                            <a href="C_login.php"><strong>User Login</strong></a>
+                            <a href="Signup.html"><strong>User Signup</strong></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <ion-icon name="menu-outline" class="header_toggle" id="toggle-menu"></ion-icon>
+    </header>
+    <div class="internet_package">
+        <div class="package_text">
+            <p>Our Best Deals</p>
+            <div class="expack">
+                <b style="color: rgb(105, 113, 215)">Explore Our</b> Best Deals
+            </div>
+        </div>
+
+        <div class="package_card_grid">
+            <div class="package_card">
+                <h1>Bronze</h1>
+                <p class="cost"><span class="costnum"> 799 </span> Tk/Month</p>
+                <hr style="width: 90%; margin: auto" />
+                <p class="mbps"><span class="mbpsnum">5</span> Mbps</p>
+                <p style="line-height: 2rem">
+                    <img src="image/correct.png" alt="" width="15px" /> 80Mbps Youtube
+                    <br />
+                    <img src="image/correct.png" alt="" width="15px" /> 80Mbps BDIX &
+                    FTP <br />
+                    <img src="image/correct.png" alt="" width="15px" /> Shared IP
+                </p>
+                <div class="getbtn">
+                    <a href="Signup.html" id="bronze" style="color: rgb(255, 255, 255)">Get Now</a>
+                </div>
+            </div>
+
+            <div class="package_card">
+                <h1>Silver</h1>
+                <p class="cost"><span class="costnum">999 </span> Tk/Month</p>
+                <hr style="width: 90%; margin: auto" />
+                <p class="mbps"><span class="mbpsnum">10</span> Mbps</p>
+                <p style="line-height: 2rem">
+                    <img src="image/correct.png" alt="" width="15px" /> 80Mbps Youtube
+                    <br />
+                    <img src="image/correct.png" alt="" width="15px" /> 80Mbps BDIX &
+                    FTP <br />
+                    <img src="image/correct.png" alt="" width="15px" /> Shared IP
+                </p>
+                <div class="getbtn">
+                    <a href="Signup.html" id="silver" style="color: rgb(255, 255, 255)">Get Now</a>
+                </div>
+            </div>
+
+            <div class="package_card">
+                <h1>Gold</h1>
+                <p class="cost"><span class="costnum"> 1499 </span> Tk/Month</p>
+                <hr style="width: 90%; margin: auto" />
+                <p class="mbps"><span class="mbpsnum">15</span> Mbps</p>
+                <p style="line-height: 2rem">
+                    <img src="image/correct.png" alt="" width="15px" /> 80Mbps Youtube
+                    <br />
+                    <img src="image/correct.png" alt="" width="15px" /> 80Mbps BDIX &
+                    FTP <br />
+                    <img src="image/correct.png" alt="" width="15px" /> Real IP
+                </p>
+                <div class="getbtn" id="movie">
+                    <a href="Signup.html" id="gold" style="color: rgb(255, 255, 255)">Get Now</a>
+                </div>
+            </div>
+            <div class="package_card">
+                <h1>Platinum</h1>
+                <p class="cost"><span class="costnum"> 1999 </span> Tk/Month</p>
+                <hr style="width: 90%; margin: auto" />
+                <p class="mbps"><span class="mbpsnum">20</span> Mbps</p>
+                <p style="line-height: 2rem">
+                    <img src="image/correct.png" alt="" width="15px" /> 100Mbps Youtube
+                    <br />
+                    <img src="image/correct.png" alt="" width="15px" /> 100Mbps BDIX &
+                    FTP <br />
+                    <img src="image/correct.png" alt="" width="15px" /> Real IP
+                </p>
+                <div class="getbtn" id="movie">
+                    <a href="Signup.html" id="gold" style="color: rgb(255, 255, 255)">Get Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="package_card_grid2">
+            <div class="package_card2">
+                <h1>Diamond</h1>
+                <p class="cost"><span class="costnum"> 3999 </span> Tk/Month</p>
+                <hr style="width: 90%; margin: auto" />
+                <p class="mbps"><span class="mbpsnum">40</span> Mbps</p>
+                <p style="line-height: 2rem">
+                    <img src="image/correct.png" alt="" width="15px" /> 100Mbps Youtube
+                    <br />
+                    <img src="image/correct.png" alt="" width="15px" /> 100Mbps BDIX &
+                    FTP <br />
+                    <img src="image/correct.png" alt="" width="15px" /> Real IP<br>
+
+                </p>
+                <div class="getbtn" id="movie">
+                    <a href="Signup.html" id="gold" style="color: rgb(255, 255, 255)">Get Now</a>
+                </div>
+            </div>
+            <div class="package_card2">
+                <h1>Freelance</h1>
+                <p class="cost"><span class="costnum"> 2499 </span> Tk/Month</p>
+                <hr style="width: 90%; margin: auto" />
+                <p class="mbps"><span class="mbpsnum">20</span> Mbps</p>
+                <p style="line-height: 2rem">
+                    <img src="image/correct.png" alt="" width="15px" /> 100Mbps Youtube,BDIX &
+                    FTP
+                    <br />
+
+                    <img src="image/correct.png" alt="" width="15px" /> Shared IP<br>
+                    <img src="image/correct.png" alt="" width="15px" /> Upload Speed: 50Mbps
+                </p>
+                <div class="getbtn" id="movie">
+                    <a href="Signup.html" id="gold" style="color: rgb(255, 255, 255)">Get Now</a>
+                </div>
+            </div>
+
+            <div class="package_card2">
+                <h1>Corporate</h1>
+                <p class="cost"><span class="costnum"> 9499 </span> Tk/Month</p>
+                <hr style="width: 90%; margin: auto" />
+                <p class="mbps"><span class="mbpsnum">100</span> Mbps</p>
+                <p style="line-height: 2rem">
+                    <img src="image/correct.png" alt="" width="15px" /> Unlimited Youtube,BDIX &
+                    FTP
+                    <br />
+
+                    <img src="image/correct.png" alt="" width="15px" /> Real IP<br>
+                    <img src="image/correct.png" alt="" width="15px" /> IP Land Line
+                </p>
+                <div class="getbtn" id="movie">
+                    <a href="Signup.html" id="gold" style="color: rgb(255, 255, 255)">Get Now</a>
+                </div>
+            </div>
+
+            <div class="package_card2">
+                <h1>Education</h1>
+                <p class="cost"><span class="costnum"> 499 </span> Tk/Month</p>
+                <hr style="width: 90%; margin: auto" />
+                <p class="mbps"><span class="mbpsnum">12</span> Mbps</p>
+                <p style="line-height: 2rem">
+                    <img src="image/correct.png" alt="" width="15px" /> 40Mbps Youtube,BDIX &
+                    FTP
+                    <br />
+
+                    <img src="image/correct.png" alt="" width="15px" /> Shared IP<br>
+                    <img src="image/correct.png" alt="" width="15px" /> Available for Students
+                </p>
+                <div class="getbtn" id="movie">
+                    <a href="Signup.html" id="gold" style="color: rgb(255, 255, 255)">Get Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="rowf">
+            <div class="colf">
+                <img src="image/logo4.png" alt="" class="logof" />
+                <h2>DATANET</h2>
+                <p>
+                    Datanet Internet started its operation in the year 2022 with the commitment of quality internet
+                    service at an
+                    affordable price. At the time of commencement, Datanet Internet started with broadband service with
+                    the state
+                    of the art technology.
+                </p>
+            </div>
+            <div class="colf">
+                <h3>
+                    Office
+                    <div class="underline"><span></span></div>
+                </h3>
+                <p>ROAD-04,HOUSE-11</p>
+                <p>Block-B,Basundhara RA,</p>
+                <p>Dhaka, Bangladesh</p>
+                <p class="emailid">datanetisp@gmail.com</p>
+                <h4>+8801628953063</h4>
+            </div>
+            <div class="colf">
+                <h3>
+                    Links
+                    <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="pack.html">Packages</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="colf">
+                <h3>
+                    Get In Touch
+                    <div class="underline"><span></span></div>
+                </h3>
+                <form class="formf">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required />
+                    <input type="text" placeholder="Enter your message" required />
+                    <button type="submit"><i class="fas fa-arrow-right"> </i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <p class="copyright">DATANET INTERNET &copy;-2022 - All rights Reserved</p>
+    </footer>
+    <script src="modal.js"></script>
+</body>
+
+</html>

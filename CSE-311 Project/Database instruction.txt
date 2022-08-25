@@ -1,0 +1,7 @@
+1. First run the xamm software
+2.Connect Apache and MySql Admin
+3.Open MySql Admin
+4.Create a Database named "company"
+5. Create a table under company database named 'login'
+6.Inside Login table add id,username,password
+7.Insert value in id,username,passwoed(1,admin,admin1)
