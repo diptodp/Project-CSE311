@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Signup Form</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" type="text/css"
+        href="file:///C:/Users/User/Desktop/Home/fontawesome-free-6.1.2-web/css/all.min.css">
+    <script src="https://kit.fontawesome.com/388b2c8c3b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="shadow">
+        <div class="logo">
+            <a href="home.html">
+                <img src="image/logo4.png" width="70px" alt="logo" />
+            </a>
+        </div>
+        <nav class="nav" id="nav-menu">
+            <ion-icon name="close-outline" class="header_close" id="close-menu"></ion-icon>
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="home.html" class="link link-theme link-arrow">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="pack.html" class="link link-theme link-arrow">Packages</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#contact" class="link link-theme link-arrow">Contact</a>
+                </li>
+                <li class="nav_item">
+                    <a href="about.html" class="link link-theme link-arrow">About Us</a>
+                </li>
+                <li class="nav_item olduser">
+                    <div class="dropdown">
+                        <button class="dropbtn">Self-Care</button>
+                        <div class="dropdown-content">
+                            <a href="login.php"><strong>Admin</strong></a>
+                            <a href="Employee.php"><strong>Employee</strong></a>
+                            <a href="C_login.php"><strong>User Login</strong></a>
+                            <a href="Signup.html"><strong>User Signup</strong></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <ion-icon name="menu-outline" class="header_toggle" id="toggle-menu"></ion-icon>
+    </header>
+    <!--<img class="wave" src="img/wave.png">-->
+    <div class="container">
+        <div class="containp">
+            <div class="img">
+                <img src="image/reg.png">
+            </div>
+            <div class="login-content">
+                <form action="Connectionsign.php" method="post">
+                    <img src="image/avatar2.svg">
+                    <h2 class="title"><u>Welcome TO DATANET</u></h2>
+
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                        <div class="div">
+                            <h5>User ID</h5>
+                            <input type="text" class="input" name="uid" required>
+                        </div>
+                    </div>
+
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="div">
+                            <h5>First name</h5>
+                            <input type="text" class="input" name="fname">
+                        </div>
+                    </div>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Last name</h5>
+                            <input type="text" class="input" name="lname">
+                        </div>
+                    </div>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <div class="div">
+                            <!-- <h5>Active Date</h5> -->
+                            <!-- <input type="my-date" class="input"name="bdate" type="text" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'"> -->
+                           <input type="text"placeholder="Activation Date"name="adate"  onfocus="(this.type='date')" onblur="(this.type='text')">
+                            
+                            
+                            
+        
+                           
+                        </div>
+                    </div>
+
+
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fas fa-mobile"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Phone No</h5>
+                            <input type="tel" class="input" name="phn" required>
+                        </div>
+                    </div>
+
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Email</h5>
+                            <input type="email" class="input" name="mail">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fa-solid fa-address-card"></i>
+                        </div>
+                        <div class="div">
+                            <h5>NID No</h5>
+                            <input type="number" pattern="[0-9]{19}" class="input" name="nid" required>
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Address</h5>
+                            <input type="text" class="input" name="add">
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Password</h5>
+                            <input type="password" class="input" name="pass" required>
+                        </div>
+                    </div>
+                    <br>
+                    <fieldset>
+                        <div class="choose">
+                            <div class="he">
+                            <label ><strong>Choose Your Package:</strong></label>
+                        </div>
+                            <div class="side2">
+                            <div>
+                            <br>
+                          <input type="radio"  name="pack" value="5 Mbps"checked>
+                          <label style="margin-right: 18px;">5 Mbps </label>
+                          
+                            </div>
+                    
+                          <div>
+                          <input type="radio" name="pack"value="10 Mbps" >
+                          <label style="margin-right: 10px;">10 Mbps </label>
+                         
+                          </div>
+                    
+                          <div>
+                          <input type="radio"  name="pack"value="15 Mbps" >
+                          <label style="margin-right: 10px;">15 Mbps </label>
+                          
+                          </div>
+                          <div>
+                            <input type="radio"  name="pack"value="20 Mbps" >
+                            <label style="margin-right: 8px;">20 Mbps </label>
+                            
+                          </div>
+                        </div>
+                          <div class="side">
+                            <div>
+                                <br>
+                            <input type="radio"  name="pack" value="40 Mbps">
+                          <label style="margin-right: 9px;">40 Mbps </label>
+                            </div>
+                            <div>
+                          <input type="radio" name="pack"value="100 Mbps" >
+                          <label >100 Mbps </label>
+                            </div>
+                            <div>
+                          <input type="radio"  name="pack"value="12 MbpsE" >
+                          <label>12 MbpsE</label>
+                            </div>
+                            <div>
+                          <input type="radio"  name="pack"value="20 MbpsF" >
+                            <label>20 MbpsF</label>
+                            </div>
+                          </div>
+                        </div>
+                    </fieldset>
+
+
+                    <div class="term">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" name="Bike" required>
+                        <label for="vehicle1">I Accept all terms and conditions. </label>
+
+                    </div>
+                    <input type="Submit" class="btn" name="Create Account">
+                    <a class="btn3" href="C_login.php">Login here</a>
+                </form>
+            </div>
+        </div>
+        <footer id="contact">
+            <div class="rowf">
+                <div class="colf">
+                    <img src="image/logo4.png" alt="" class="logof" />
+                    <h2>DATANET</h2>
+                    <p>
+                        Datanet Internet started its operation in the year 2022 with the commitment of quality internet
+                        service at an
+                        affordable price. At the time of commencement, Datanet Internet started with broadband service
+                        with
+                        the state
+                        of the art technology.
+                    </p>
+                </div>
+                <div class="colf1">
+                    <h3>
+                        Office
+                        <div class="underline"><span></span></div>
+                    </h3>
+                    <p>ROAD-04,HOUSE-11</p>
+                    <p>Block-B,Basundhara RA,</p>
+                    <p>Dhaka, Bangladesh</p>
+                    <p class="emailid">datanetisp@gmail.com</p>
+                    <h4>+8801628953063</h4>
+                </div>
+                <div class="colf2">
+                    <h3>
+                        Links
+                        <div class="underline"><span></span></div>
+                    </h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+
+                        <li><a href="pack.html">Packages</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="colf3">
+                    <h3>
+                        Get In Touch
+                        <div class="underline"><span></span></div>
+                    </h3>
+                    <form class="formf">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email id" required />
+                        <input type="text" placeholder="Enter your message" required />
+                        <button type="submit"><i class="fas fa-arrow-right"> </i></button>
+                    </form>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">DATANET INTERNET &copy;-2022 - All rights Reserved</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
