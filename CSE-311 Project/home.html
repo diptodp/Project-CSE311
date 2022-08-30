@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css" />
+  <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <title>DATANET INTERNET</title>
+
+</head>
+
+<body>
+
+
+  <!-- The Modal -->
+  <!-- <div id="myModal" class="modal">
+
+     Modal content 
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <form action="Complain.php" method="post">
+
+        <input type="text" name="user_name" placeholder="User ID"required>
+        <input type="text" name="complain" placeholder="Complain"required>
+        <input type="submit" value="Submit">
+      </form>
+
+    </div>
+  </div> -->
+
+  <header class="shadow">
+    <div class="logo">
+      <a href="home.html">
+        <img src="image/logo4.png" width="70px" alt="logo" />
+      </a>
+    </div>
+    <nav class="nav" id="nav-menu">
+      <ion-icon name="close-outline" class="header_close" id="close-menu"></ion-icon>
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="home.html" class="link link-theme link-arrow">Home</a>
+        </li>
+        <li class="nav_item">
+          <a href="pack.html" class="link link-theme link-arrow">Packages</a>
+        </li>
+
+        <!-- <li class="nav_item">
+          <a id="myBtn" style="cursor: pointer;" class="link link-theme link-arrow">Complain</a>
+        </li> -->
+
+        <li class="nav_item">
+          <a href="#contact" class="link link-theme link-arrow">Contact</a>
+        </li>
+        <li class="nav_item">
+          <a href="about.html" class="link link-theme link-arrow">About Us</a>
+        </li>
+        <li class="nav_item olduser">
+          <div class="dropdown">
+            <button class="dropbtn">Self-Care</button>
+            <div class="dropdown-content">
+              <a href="login.php"><strong>Admin</strong></a>
+              <a href="Employee.php"><strong>Employee</strong></a>
+              <a href="C_login.php"><strong>User Login</strong> </a>
+              <a href="Signup.html"><strong>User Signup</strong></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <ion-icon name="menu-outline" class="header_toggle" id="toggle-menu"></ion-icon>
+  </header>
+  <script src="app.js"></script>
+
+  <div class="forimg">
+    <div class="banner-1">
+      <img src="image/banner2.jpg" alt="elephant" />
+      <div class="text-box text-box4">
+        <h1>DATANET</h1>
+        <span></span>
+        <p>
+          Datanet Internet started its operation in the year 2022 with the commitment of quality internet service at an
+          affordable price. At the time of commencement, Datanet Internet started with broadband service with the state
+          of the art technology. Over time, our R & D team has developed and introduced many new technologies to meet
+          the requirement of the new millennium.We are one of the top growing Internet Service Providers in Dhaka.
+          Hoping to do much better in the broadband internet industry with great service at affordable prices
+        </p>
+      </div>
+    </div>
+
+    <div class="banner-2">
+      <img src="image/banner1.jpg" alt="elephant" />
+      <div class="text-box text-box1">
+        <h1>Explore Over World Broadband</h1>
+        <span></span>
+        <p>
+          The Internet has been one of our most transformative and fast-growing technologies. Globally, the number of
+          Internet users increased from only 413 million in 2000 to over 3.4 billion in 2016. The one-billion barrier
+          was crossed in 2005. Every day over the past five years, an average of 640,000 people went online for the
+          first time.
+        </p>
+      </div>
+    </div>
+
+    <div class="banner-3">
+      <img src="image/banner3.jpg" alt="elephant" />
+      <div class="text-box text-box3">
+        <h1>Journey With Fast Internet</h1>
+        <span></span>
+        <p>
+          High speed Internet service is worth the investment for those with family looking for entertainment, and those
+          who need a strong network for their career. Not only will you be able to browse the Internet without having to
+          reload pages, you will be able to open multiple pages at the same time with lightning fast speed.
+        </p>
+      </div>
+    </div>
+
+    <div class="cont-btn"> <a href="Signup.html">Get Your Connection Now</a></div>
+  </div>
+  <div class="service">
+    <div class="servtext">
+      <div class="border2"></div>
+      <p>Our Services</p>
+      <span>
+        <b style="color: rgb(106, 113, 215)"> Explore Our </b> Best <br />
+        Services</span>
+    </div>
+
+    <div class="servcards">
+      <div class="scard" style="background-color: #7581ff23">
+        <img src="image/wifi-router.png" alt="icon" />
+        <h3>Broadband</h3>
+        <p>We provide the fastest internet broadband connection</p>
+      </div>
+      <div class="scard">
+        <img src="image/tv-program.png" alt="icon" />
+        <h3>Live TV</h3>
+        <p>We provide bufferless live TV</p>
+      </div>
+      <div class="scard">
+        <img src="image/video.png" alt="icon" />
+        <h3>Movies</h3>
+        <p>You can watch movies smoothly without buffer.</p>
+      </div>
+      <div class="scard">
+        <img src="image/search-engine.png" alt="icon" />
+        <h3>Browsing</h3>
+        <p id="package">We provide the fastest internet so that you can browse seamlessly</p>
+      </div>
+    </div>
+  </div>
+  <footer id="contact">
+    <div class="rowf">
+      <div class="colf">
+        <img src="image/logo4.png" alt="" class="logof" />
+        <h2>DATANET</h2>
+        <p>
+          Datanet Internet started its operation in the year 2022 with the commitment of quality internet service at an
+          affordable price. At the time of commencement, Datanet Internet started with broadband service with the state
+          of the art technology.
+        </p>
+      </div>
+      <div class="colf">
+        <h3>
+          Office
+          <div class="underline"><span></span></div>
+        </h3>
+        <p>ROAD-04,HOUSE-11</p>
+        <p>Block-B,Basundhara RA,</p>
+        <p>Dhaka, Bangladesh</p>
+        <p class="emailid">datanetisp@gmail.com</p>
+        <h4>+8801628953063</h4>
+      </div>
+      <div class="colf">
+        <h3>
+          Links
+          <div class="underline"><span></span></div>
+        </h3>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+
+          <li><a href="pack.html">Packages</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="colf">
+        <h3>
+          Get In Touch
+          <div class="underline"><span></span></div>
+        </h3>
+        <form class="formf">
+          <i class="far fa-envelope"></i>
+          <input type="email" placeholder="Enter your email id" required />
+          <input type="text" placeholder="Enter your message" required />
+          <button type="submit"><i class="fas fa-arrow-right"> </i></button>
+        </form>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">DATANET INTERNET &copy;-2022 - All rights Reserved</p>
+  </footer>
+  <script src="modal.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; 
+  transition: all .2s linear;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background-color:rgb(145, 147, 250);
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+  
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+ 
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+  
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+  
+
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+  border: #000;
+  border-radius: 1px;
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #2c3e50;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+.sp img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  animation: zoomout 20s linear infinite;
+  filter: brightness(80%);
+}
+header {
+  display: flex;
+  /* background-color: #e03a25; */
+  justify-content: space-around;
+  padding: 1rem 0;
+  height: 88px;
+  width: 60%;
+  align-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  overflow:visible;
+  margin-left: 3.5%;
+  margin-top: 1%;
+  
+}
+
+
+
+.logo img {
+  margin-right: 10px;
+  
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(38, 109, 99);
+  width: 110px;
+  height: 70px;
+  border-radius:  50%  8%;
+  margin-left: -40%;
+  margin-top: 1.5px;
+  
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: -300px; 
+}
+.nav_item {
+  margin: 0 15px;
+}
+  
+  .shadow {
+    background-color: rgb(195, 204, 250);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+  }
+  
+  .shadow a {
+    color: black;
+  }
+  
+  .shadow a:hover {
+    color: rgb(105, 113, 215);
+  }
+  
+  .shadow .olduser {
+    color: white;
+    margin-left: 100px;
+    margin-right: -1000px;
+  }
+  
+  shadow .olduser:hover {
+    color: white;
+  }
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(65 99 255);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(126, 181, 226);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  border: none;
+  margin-left: 0%;
+  width: 100%;
+  background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                border-radius: 7%;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 165px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display:none;
+  position:absolute;
+  background-color: rgb(244, 244, 248);
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  margin-left: 2px;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(5, 5, 5);
+  padding: 8px 8px;
+  text-align: center;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ee344d;color: rgb(8, 8, 8);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content.dropdown-content2 {
+  display:none;
+  position:absolute;
+  background-color: rgb(244, 244, 248);
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  margin-left: 48px;
+}
+/* Links inside the dropdown */
+.dropdown-content2 a {
+  color: rgb(5, 5, 5);
+  padding: 8px 8px;
+  text-align: center;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover {
+	background-color: #28cf6e;color: rgb(8, 8, 8);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content2 {
+	display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: rgb(126, 181, 226);
+}
+.nav_item hr {
+	width: 100%;
+	border: 0;
+	border-bottom: 2px solid rgb(136, 130, 221);
+	
+}
