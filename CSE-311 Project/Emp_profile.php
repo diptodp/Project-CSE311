@@ -92,7 +92,7 @@ while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 
 <div class="col-sm-6">
     <p class="m-b-10 f-w-600"><strong>Phone No</strong></p>
-    <h6 class="text-muted f-w-400">'.$phn.'</h6>
+    <h6 class="text-muted f-w-400">+880'.$phn.'</h6>
 </div>
 <div class="col-sm-6">
     <p class="m-b-10 f-w-600"><strong>Email</strong></p>
