@@ -62,7 +62,8 @@ NID =$NID,
   if ($result) {
     // echo "updated succesfully";
     // header('location:u_dashboard.php');
-     echo '<script type="text/javascript"> alert("Your registration is complete.")</script>';
+     echo '<script type="text/javascript"> alert("Your registration is complete.")
+     window.location.href = "User_profile.php";</script>';
   } else {
     die(mysqli_connect_error($con));
   }
